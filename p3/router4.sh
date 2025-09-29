@@ -22,7 +22,7 @@ echo "Bridge and VXLAN setup complete"
 echo "Applying FRR configuration..."
 vtysh << 'EOF'
 conf t
-hostname frrr-4
+hostname aschiffe-r1-4
 no ipv6 forwarding
 !
 interface eth2
